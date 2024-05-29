@@ -17,16 +17,6 @@ function\entropy_cluster -> entropy cluster <br />
 function\LG -> Lexicographic Grouping <br />
 OtMFD -> Twenty tampered images with one-to-many copy-move <br />
 
-
-The Performance on Some Public Datasets (Windows 11, Matlab 2018a): <br />
-|Datasets| TPR         FPR         F-i         F-p <br />
-GRIP:                   100         0           100         95.57 <br />
-CMH+GRIPori [1]:        100         0           100         94.39 <br />
-CoMoFoD-BASE:           94.5		    6.5         94.03		    86.44 <br />
-FAU:                    100         2.08		    98.97		    88.96 <br />
-MICC-600:               96.25		    0.68		    97.16		    90.39 <br />
-SSRGFD-CMFD:            76.68		    0.54		    86.40		    67.77 <br />
-
 ## Configuration
 To run this code, you must configure VL_FEAT in matlab (We test the code under VL_FEAT 0.9.21).
 
