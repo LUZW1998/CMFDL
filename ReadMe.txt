@@ -1,6 +1,6 @@
 This code was developed by Zhaowei Lu.
 luzhaoweizzu@163.com
-Part of the code has been improved by Li et al [1].
+Part of the code has been improved by Li et al. [1].
 To run this code, you must configure VL_FEAT in matlab (We test the code under VL_FEAT 0.9.21).
 
 
