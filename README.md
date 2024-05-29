@@ -20,5 +20,5 @@ OtMFD -> Twenty tampered images with one-to-many copy-move <br />
 ## Configuration
 To run this code, you must configure VL_FEAT in matlab (We test the code under VL_FEAT 0.9.21).
 
-# Reference
+## Reference
 [1] Li Y, Zhou J. Fast and effective image copy-move forgery detection via hierarchical feature point matching[J]. IEEE Transactions on Information Forensics and Security, 2018, 14(5): 1307-1322.
