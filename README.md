@@ -6,7 +6,7 @@
 ## Information of the Author
 This code was developed by Zhaowei Lu. <br />
 luzhaoweizzu@163.com <br />
-Part of the code has been improved by Li et al [1].
+Part of the code has been improved by Li et al. [1].
 
 ## Contribution
 The main contribution of our code: <br />
