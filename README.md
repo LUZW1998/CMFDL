@@ -19,7 +19,7 @@ OtMFD -> Twenty tampered images with one-to-many copy-move <br />
 
 
 The Performance on Some Public Datasets (Windows 11, Matlab 2018a): <br />
-Datasets                TPR         FPR         F-i         F-p <br />
+Datasets \qquad TPR         FPR         F-i         F-p <br />
 GRIP:                   100         0           100         95.57 <br />
 CMH+GRIPori [1]:        100         0           100         94.39 <br />
 CoMoFoD-BASE:           94.5		    6.5         94.03		    86.44 <br />
