@@ -1,4 +1,4 @@
-### Image Copy-Move Forgery Detection and Localization Scheme: How to Avoid Missed Detection and False Alarm
+# Image Copy-Move Forgery Detection and Localization Scheme: How to Avoid Missed Detection and False Alarm
 
 
 This code was developed by Zhaowei Lu.
