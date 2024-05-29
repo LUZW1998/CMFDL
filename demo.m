@@ -4,7 +4,7 @@ close all
 addpath(genpath('function'));
 dbstop if error
 
-image_path = 'images\TP_C02_015_copy.png';
+image_path = 'images\_r30_s1200statue.png';
 
 img_rgb = imread(image_path);
 [h,w,~] = size(img_rgb);
