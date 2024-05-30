@@ -6,7 +6,7 @@ To run this code, you must configure VL_FEAT in matlab (We tested the code under
 
 The main contribution of our code:
 function\CM_feature -> detect keypoints and extract features(based on VL_FEAT)
-function\CM_match -> feature matching(improved by Li et al)
+function\CM_match -> feature matching(improved by Li et al.)
 function\CM_localization -> forgery localization(new iterative forgery localization)
 function\entropy_cluster -> entropy cluster
 function\LG -> Lexicographic Grouping
