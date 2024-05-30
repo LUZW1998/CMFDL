@@ -11,7 +11,7 @@ Part of the code has been improved by Li et al. [1].
 ## Contribution
 The main contribution of our code: <br />
 function\CM_feature -> detect keypoints and extract features (based on VL_FEAT) <br />
-function\CM_match -> feature matching (improved by Li et al) <br />
+function\CM_match -> feature matching (improved by Li et al.) <br />
 function\CM_localization -> forgery localization (new iterative forgery localization) <br />
 function\entropy_cluster -> entropy cluster <br />
 function\LG -> Lexicographic Grouping <br />
