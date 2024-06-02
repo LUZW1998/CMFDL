@@ -38,7 +38,7 @@ function map = CM_locailzation(img,para)
         p2 = M2(:,unvisited);
 
 
-        % choose minimum sample set
+        % choose maximum density sample set
         mask = double(circle_mask(para.t2));
         location_match1 = zeros(h,w);
         location_match2 = zeros(h,w);
@@ -65,7 +65,7 @@ function map = CM_locailzation(img,para)
         cur_p1 = p1(:,sample_idx);
         cur_p2 = p2(:,sample_idx);
         n_sample = size(cur_p1,2);
-        % check minimum sample set
+        % check maximum density sample set
         if n_sample < n_MSS || n_sample < n_post*t3*t3/h/w
             visited(unvisited(sample_idx)) = 1;
             continue;
@@ -126,6 +126,7 @@ function map = CM_locailzation(img,para)
         % Set localization parameter
         n_process = size(cur_process_p1,2);
         diff_matrix = zeros(n_process,1);
+        % Forgery localization using robust grayscale statistical information 
         for i = 1:n_process
             x1 = cur_process_p1(2,i);
             y1 = cur_process_p1(1,i);
