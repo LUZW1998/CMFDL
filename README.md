@@ -5,7 +5,7 @@ We provide the code design for each stage of the paper. For parameters, it is in
 <p>Image copy-move is an operation that replaces one part of the image with another part of the same image, which can be used for illegal purposes due to the potential semantic changes. Recent studies have shown that keypoint-based algorithms achieved excellent and robust localization performance even when small or smooth tampered areas were involved. However, when the input image is low-resolution, most existing keypoint-based algorithms are difficult to generate sufficient keypoints, resulting in more missed detections. In addition, existing algorithms are usually unable to distinguish between Similar but Genuine Objects (SGO) images and tampered images, resulting in more false alarms. This is mainly due to the lack of further verification of local homography matrix in forgery localization stage. To tackle these problems, this paper firstly proposes an excessive keypoint extraction strategy to overcome missed detection. Subsequently, a group matching algorithm is used to speed up the matching of excessive keypoints. Finally, a new iterative forgery localization algorithm is introduced to quickly form pixel-level localization results while ensuring a lower false alarm. Extensive experimental results show that our scheme has superior performance than state-of-the-art algorithms in overcoming missed detection and false alarm.</p>
 
 ## Author Information
-This code was developed by Zhaowei Lu (upload date: 13/6/2024). <br />
+This code was developed by Zhaowei Lu (pubilshed date: 13/6/2024). <br />
 luzhaoweizzu@163.com <br />
 Part of the code has been improved by Li et al. [1].
 
