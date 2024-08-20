@@ -24,4 +24,4 @@ To run this code, you must configure VL_FEAT in matlab (We tested the code under
 ## Reference
 If you use this code, please cite the following paper: <br />
 [1] Li Y, Zhou J. Fast and effective image copy-move forgery detection via hierarchical feature point matching[J]. IEEE Transactions on Information Forensics and Security, 2018, 14(5): 1307-1322. <br />
-[2] This cite will be published after acceptance
+[2] Jiang L, Lu Z, Gao Y, et al. Image Copy-Move Forgery Detection and Localization Scheme: How to Avoid Missed Detection and False Alarm[J]. arXiv preprint arXiv:2406.03271, 2024.
